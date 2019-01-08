@@ -1,0 +1,30 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view> -->
+
+
+  
+<view class="swiper-class">
+  <swiper indicator-dots="true" autoplay="false" interval="5000" duration="1000">
+    <swiper-item>
+        <image src="http://wx3.sinaimg.cn/large/006nLajtly1fkegnmnwuxj30dw0dw408.jpg" class="slide-image" height="150" />
+    </swiper-item>
+    <swiper-item>
+        <image src="http://pic3.16pic.com/00/16/45/16pic_1645919_b.jpg" class="slide-image" height="150" />
+    </swiper-item>
+    <swiper-item>
+        <image src="http://www.pptbz.com/pptpic/UploadFiles_6909/201211/2012111719294197.jpg" class="slide-image" height="150" />
+      </swiper-item>
+    </swiper>
+  </view>
+
+</view>
