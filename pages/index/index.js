@@ -15,6 +15,10 @@ Page({
       url: '../logs/logs'
     })
   },
+  onPullDownRefresh: function() {
+    console.log("onPullDownRefresh");
+    wx.stopPullDownRefresh();
+  },
   onLoad: function () {
     if (app.globalData.userInfo) {
       this.setData({
